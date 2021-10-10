@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    color: lightgray;
+}
+
+header, .awesome {
+    color: white;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+a, #secondaryText {
+    font-size: 18px; 
+    font-weight: normal;
+    color: lightgray;
+}
+
+li {
+    list-style-type: none;
+}
+
+.awesome {
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px 25px 70px 25px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.awesomeBox {
+    width: 500px;
+}
+
+.awesomeBox h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+#bigPengus {
+    height: 250px;
+    flex-shrink: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustrations h1 {
+    margin: 50px 0px;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.barImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #1F2937;
+    border-radius: 10px;
+}
+
+.bar {
+    width: 200px;
+    margin: 0px 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+}
+
+.quote h3 {
+    margin-top: -30px;
+    text-align: right;
+    font-size: 25px;
+    width: 700px;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    color: white;
+}
+
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+footer h3 {
+    font-weight: 200;
+}
+
+.contact {
+    background-color: #3882F6;
+    width: 900px;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px 60px;
+    justify-content: space-between;
+}
+
+.button_container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container button {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.persuasion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.persuasion h3 {
+    color: lightgray;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
